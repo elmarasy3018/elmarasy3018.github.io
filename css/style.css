@@ -32,9 +32,9 @@ body {
 
 .carousel {
     overflow: hidden;
-    padding: 60px 0;
+    padding: 40px 0;
     white-space: nowrap;
-
+    background-color: #FFFFFF;
 }
 
 .carousel_slides {
@@ -45,7 +45,7 @@ body {
 .carousel_slides img {
     max-width: none;
     display: inline-block;
-    height: 50px;
+    height: 100px;
     margin: 0 40px;
 }
 
