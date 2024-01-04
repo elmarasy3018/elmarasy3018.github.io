@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
@@ -22,4 +28,32 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.carousel {
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+
+}
+
+.carousel_slides {
+    display: inline-block;
+    animation: 20s carousel infinite linear;
+}
+
+.carousel_slides img {
+    max-width: none;
+    display: inline-block;
+    height: 50px;
+    margin: 0 40px;
+}
+
+.carousel:hover .carousel_slides {
+    animation-play-state: paused;
+}
+
+@keyframes carousel {
+    from{transform: translateX(0);}
+    to{transform: translateX(-100%);}
 }
