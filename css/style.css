@@ -31,10 +31,31 @@ body {
 }
 
 .carousel {
+    position: relative;
     overflow: hidden;
-    padding: 40px 0;
+    padding: 20px 0;
     white-space: nowrap;
-    background-color: #FFFFFF;
+    background-color: #38495a;
+}
+
+.carousel:before,
+.carousel:after {
+    position: absolute;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.carousel:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #38495a);
+}
+
+.carousel:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #38495a);
 }
 
 .carousel_slides {
@@ -54,6 +75,11 @@ body {
 }
 
 @keyframes carousel {
-    from{transform: translateX(0);}
-    to{transform: translateX(-100%);}
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }
