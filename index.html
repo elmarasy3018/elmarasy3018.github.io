@@ -9,16 +9,27 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
 </head>
 
 <body>
     <nav class="navbar-class fixed w-full z-20 top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="elmarasy3018.github.io" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="https://elmarasy3018.github.io/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="images/Logo.svg" class="h-10" alt="Logo">
                 <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Mohamed EL Marasy</span>
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 text-gray-400 focus:ring-gray-600"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1span5M1 7h15M1 13h15" />
+                    </svg>
+                </button>
                 <a href="docs/Mohamed_Mostafa_EL_Marasy.pdf" download>
                     <button type="button"
                         class="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
@@ -31,8 +42,7 @@
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 md:text-blue-500"
-                            aria-current="page">Home</a>
+                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Home</a>
                     </li>
                     <li>
                         <a href="#"
@@ -43,7 +53,7 @@
                             class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Services</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="#xxxx"
                             class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Contact</a>
                     </li>
                 </ul>
@@ -58,18 +68,29 @@
     <div id='title'>
         <span id="demo"></span><br><span id="demo2"></span>
     </div>
-    <div class="carousel">
+    <div class="py-10">
+        <p class="text-4xl font-bold mx-28 text-white">Career Objective</p>
+        <br>
+        <p class="text-2xl font-medium mx-28 text-white">
+            Seeking a job opportunity as a software developer.
+            I am a driven individual with skills and expertise in the designing, planning, and maintenance of software
+            programs.
+            I wish to work with a diverse team that works towards contributing to the company’s vision and goals.
+        </p>
+    </div>
+    <div class="carousel mx-28">
         <div class="carousel_slides">
             <img src="images/logos/html-5.png" />
             <img src="images/logos/css-3.png" />
-            <img src="images/logos/js.png" />
+            <img src="images/logos/js.png" style="height: 80px;" />
+            <img src="images/logos/bootstrap.svg" />
             <img src="images/logos/oracle-db.svg" style="height: 140px;" />
             <img src="images/logos/mysql.svg" style="height: 140px;" />
             <img src="images/logos/php.png" />
-            <img src="images/logos/laravel.svg" />
+            <img src="images/logos/laravel.svg" style="height: 90px;" />
             <img src="images/logos/tailwindcss.svg" style="height: 60px;" />
             <img src="images/logos/livewire.png" />
-            <img src="images/logos/Oracle.svg" />
+            <img src="images/logos/Oracle.svg" style="height: 90px;" />
             <img src="images/logos/python.svg" style="height: 80px;" />
         </div>
     </div>
@@ -119,6 +140,8 @@
             <br>
             Flowchart
             <br>
+        </h3>
+        <h3 id="xxxx">
             Design
             We will transform the insights gained from research and strategic decisions into practical design solutions.
             Design involves a range of activities focused on developing user-centered and visually captivating
@@ -164,6 +187,7 @@
             }
         })
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </body>
 
 </html>

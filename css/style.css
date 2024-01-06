@@ -5,7 +5,8 @@
 }
 
 body {
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    background-color: #1b2735;
 }
 
 #title {
@@ -35,7 +36,7 @@ body {
     overflow: hidden;
     padding: 20px 0;
     white-space: nowrap;
-    background-color: #38495a;
+    /* background-color: #38495a; */
 }
 
 .carousel:before,
@@ -50,12 +51,12 @@ body {
 
 .carousel:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), #38495a);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #1b2735);
 }
 
 .carousel:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), #38495a);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #1b2735);
 }
 
 .carousel_slides {
