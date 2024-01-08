@@ -66,7 +66,9 @@
         <div id='stars3'></div>
     </div>
     <div id='title'>
-        <span id="demo"></span><br><span id="demo2"></span>
+        <span id="name" class="text-3xl font-medium md:text-5xl"></span>
+        <br><br>
+        <span id="desc" class="text-2xl font-light md:text-5xl"></span>
     </div>
     <div class="py-10 mx-5 md:mx-24">
         <p class="text-2xl md:text-4xl font-bold text-white">Career Objective</p>
@@ -157,21 +159,19 @@
     <script>
         var i = 0;
         var i2 = 0;
-        var txt = 'Test Text';
-        var txt2 = 'Test Text';
-        // var txt = 'Mohamed Mostafa EL Marasy';
-        // var txt2 = 'Software Developer';
+        var txt = 'Mohamed Mostafa EL Marasy';
+        var txt2 = 'Software Developer';
         var speed = 100;
 
         window.addEventListener('load',
             function typeWriter() {
                 if (i < txt.length) {
-                    document.getElementById("demo").innerHTML += txt.charAt(i);
+                    document.getElementById("name").innerHTML += txt.charAt(i);
                     i++;
                     setTimeout(typeWriter, speed);
                 } else if (i >= txt.length) {
                     if (i2 < txt.length) {
-                        document.getElementById("demo2").innerHTML += txt2.charAt(i2);
+                        document.getElementById("desc").innerHTML += txt2.charAt(i2);
                         i2++;
                         setTimeout(typeWriter, speed);
                     }
