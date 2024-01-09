@@ -41,20 +41,20 @@
                 <ul
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Home</a>
+                        <a href="#sky"
+                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Title</a>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">About</a>
+                        <a href="#objective"
+                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Objective</a>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Services</a>
+                        <a href="#carousel"
+                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Carousel</a>
                     </li>
                     <li>
-                        <a href="#xxxx"
-                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Contact</a>
+                        <a href="#test"
+                            class="block py-2 px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white border-gray-700">Test</a>
                     </li>
                 </ul>
             </div>
@@ -70,7 +70,7 @@
         <br><br>
         <span id="desc" class="text-2xl font-light md:text-5xl"></span>
     </div>
-    <div class="py-10 mx-5 md:mx-24">
+    <div id="objective" class="py-10 mx-5 md:mx-24">
         <p class="text-2xl md:text-4xl font-bold text-white">Career Objective</p>
         <br>
         <p class="text-xl md:text-2xl font-medium text-white">
@@ -80,7 +80,7 @@
             I wish to work with a diverse team that works towards contributing to the company’s vision and goals.
         </p>
     </div>
-    <div class="carousel mx-5 md:mx-24">
+    <div id="carousel" class="carousel mx-5 md:mx-24">
         <div class="carousel_slides">
             <img src="images/logos/html-5.png" />
             <img src="images/logos/css-3.png" />
@@ -143,7 +143,7 @@
             Flowchart
             <br>
         </h3>
-        <h3 id="xxxx">
+        <h3 id="test">
             Design
             We will transform the insights gained from research and strategic decisions into practical design solutions.
             Design involves a range of activities focused on developing user-centered and visually captivating
@@ -152,6 +152,7 @@
             consistent throughout the product.
         </h3>
     </div>
+    <script>alert("The Website Still Under Development So Don't Judge");</script>
     <script>
         var carousel_copy = document.querySelector(".carousel_slides").cloneNode(true);
         document.querySelector(".carousel").appendChild(carousel_copy);
