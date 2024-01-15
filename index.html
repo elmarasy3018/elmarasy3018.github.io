@@ -37,7 +37,8 @@
                     </svg>
                 </button>
             </div>
-            <div class="my-1 items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+            <div class="my-1 items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                id="navbar-sticky">
                 <ul
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                     <li>
@@ -96,61 +97,59 @@
             <img src="images/logos/python.svg" style="height: 80px;" />
         </div>
     </div>
-    <div>
-        <h3>user and business context. By utilising research, strategy and design we create valuable mobile apps, web
-            applications, webshops, and software. This holistic approach to design is what we refer to as digital
-            product design.<br>
-
-            Research<br>
-            Research plays a crucial role in helping both our team and yours to develop a profound understanding of the
-            problem at hand, identify potential opportunities, and make informed design decisions. By assessing our
-            existing knowledge and identifying gaps, we can determine the most suitable research approach for our
-            collaboration. This ensures that our research efforts are tailored to meet the specific needs of the project
-            and enable us to work together effectively.<br>
-
-            Services<br>
-
-            User Interviews<br>
-
-            User Testing<br>
-
-            Stakeholder sessions<br>
-
-            Competitor Analysis<br>
-
-            UX/UI Audit<br>
-
-            Strategy<br>
-            Strategy involves deliberate planning and decision-making that directs the overall direction and goals
-            of<br>
-            the product. It entails defining the product's vision, objectives, and key principles that will shape
-            its<br>
-            design. By aligning with your business goals, user needs, and market conditions, our strategic approach<br>
-            ensures that we identify what brings value to both your users and your business. It serves as the
-            foundation<br>
-            for driving the product towards success.
-
-            Services
-
-            User Journey
-
-            Product Guidelines
-            <br>
-            User Stories
-
-            Product Roadmap
-            <br>
-            Flowchart
-            <br>
-        </h3>
-        <h3 id="test">
-            Design
-            We will transform the insights gained from research and strategic decisions into practical design solutions.
-            Design involves a range of activities focused on developing user-centered and visually captivating
-            interfaces while defining the overall user experience. Furthermore, we will integrate the brand identity and
-            guidelines, ensuring that visual elements, tone of voice, and the overall brand representation are
-            consistent throughout the product.
-        </h3>
+    <div id="test" class="py-10 mx-5 md:mx-24">
+        <p class="text-2xl md:text-4xl font-bold text-white">Projects</p>
+        <br>
+        <div class="grid grid-cols-3 gap-10">
+            <a href="{{ route('doctors.show', ['doctor' => $doctor->id]) }}">
+                <div class="relative hover:-translate-y-5 hover:scale-105 ease-in-out duration-300">
+                    <img src="https://www.ntaskmanager.com/wp-content/uploads/2020/02/What-is-a-Project-1-scaled.jpg" alt="doctor" class="rounded-lg">
+                    <div
+                        class="info opacity-0 hover:opacity-100 bg-gradient-to-t from-sky-400 absolute bottom-0 top-0 right-0 left-0 rounded-lg">
+                        <div class="grid grid-cols-1 absolute bottom-0 text-white ml-4 mb-2">
+                            <span class="font-semibold text-2xl">Dr. {{ $doctor->name }}</span>
+                            <span class="font-semibold">{{ $doctor->specialty }}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ route('doctors.show', ['doctor' => $doctor->id]) }}">
+                <div class="relative hover:-translate-y-5 hover:scale-105 ease-in-out duration-300">
+                    <img src="https://www.ntaskmanager.com/wp-content/uploads/2020/02/What-is-a-Project-1-scaled.jpg" alt="doctor" class="rounded-lg">
+                    <div
+                        class="info opacity-0 hover:opacity-100 bg-gradient-to-t from-sky-400 absolute bottom-0 top-0 right-0 left-0 rounded-lg">
+                        <div class="grid grid-cols-1 absolute bottom-0 text-white ml-4 mb-2">
+                            <span class="font-semibold text-2xl">Dr. {{ $doctor->name }}</span>
+                            <span class="font-semibold">{{ $doctor->specialty }}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ route('doctors.show', ['doctor' => $doctor->id]) }}">
+                <div class="relative hover:-translate-y-5 hover:scale-105 ease-in-out duration-300">
+                    <img src="https://www.ntaskmanager.com/wp-content/uploads/2020/02/What-is-a-Project-1-scaled.jpg" alt="doctor" class="rounded-lg">
+                    <div
+                        class="info opacity-0 hover:opacity-100 bg-gradient-to-t from-sky-400 absolute bottom-0 top-0 right-0 left-0 rounded-lg">
+                        <div class="grid grid-cols-1 absolute bottom-0 text-white ml-4 mb-2">
+                            <span class="font-semibold text-2xl">Dr. {{ $doctor->name }}</span>
+                            <span class="font-semibold">{{ $doctor->specialty }}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="{{ route('doctors.show', ['doctor' => $doctor->id]) }}">
+                <div class="relative hover:-translate-y-5 hover:scale-105 ease-in-out duration-300">
+                    <img src="https://www.ntaskmanager.com/wp-content/uploads/2020/02/What-is-a-Project-1-scaled.jpg" alt="doctor" class="rounded-lg">
+                    <div
+                        class="info opacity-0 hover:opacity-100 bg-gradient-to-t from-sky-400 absolute bottom-0 top-0 right-0 left-0 rounded-lg">
+                        <div class="grid grid-cols-1 absolute bottom-0 text-white ml-4 mb-2">
+                            <span class="font-semibold text-2xl">Dr. {{ $doctor->name }}</span>
+                            <span class="font-semibold">{{ $doctor->specialty }}</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
     <script>alert("The Website Still Under Development So Don't Judge");</script>
     <script>
