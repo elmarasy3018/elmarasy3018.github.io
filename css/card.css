@@ -9,13 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 .card {
     position: relative;
-    width: 600px;
-    height: 350px;
+    width: 700px;
+    height: 400px;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -40,7 +39,7 @@
     width: 100%;
     height: 100%;
     background: #d83133;
-    clip-path: circle(120px at center);
+    clip-path: circle(200px at center);
     transition: 0.5s;
 
 }
@@ -56,24 +55,24 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 300px;
+    height: 450px;
     pointer-events: none;
     transition: 0.5s;
-    clip-path: circle(120px at center);
+    clip-path: circle(200px at center);
 }
 
 .card:hover img {
-    left: 72%;
-    height: 300px;
+    left: 80%;
+    height: 400px;
     transition: 0.5s;
     clip-path: none;
 }
 
 .card .content {
     position: relative;
-    width: 50%;
-    left: 20%;
-    padding: 80px 20px 20px 40px;
+    height: 100%;
+    width: 60%;
+    padding: 30px;
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
