@@ -59,11 +59,14 @@
     height: 300px;
     pointer-events: none;
     transition: 0.5s;
+    clip-path: circle(120px at center);
 }
 
 .card:hover img {
     left: 72%;
     height: 300px;
+    transition: 0.5s;
+    clip-path: none;
 }
 
 .card .content {
